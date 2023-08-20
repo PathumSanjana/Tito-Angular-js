@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
+  heading= 'Hello to Angular';
+  paragraph='Tutorial with pathum';
 }
