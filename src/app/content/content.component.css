@@ -1,0 +1,9 @@
+main {
+    padding: 20px;
+}
+
+.content-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
