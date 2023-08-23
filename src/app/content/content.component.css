@@ -5,5 +5,19 @@ main {
 .content-section {
     border: 1px solid #ddd;
     padding: 20px;
+    width: 60%;
     margin: 20px 0;
+    margin-left: 20%;
+    margin-top: 4%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 2px solid blue;
+    transition: transform .2s;
 }
+
+.content-section:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
