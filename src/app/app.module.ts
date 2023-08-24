@@ -8,6 +8,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { JavaComponent } from './java/java.component';
+import { HtmlComponent } from './html/html.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { JavaComponent } from './java/java.component';
     NavigationComponent,
     ContentComponent,
     FooterComponent,
-    JavaComponent
+    JavaComponent,
+    HtmlComponent
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContentComponent } from './content/content.component';
 import { JavaComponent } from './java/java.component';
+import { HtmlComponent } from './html/html.component';
 
 const routes: Routes = [
  
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path:'java',
     component:JavaComponent
+  },
+  {
+    path:'html',
+    component:HtmlComponent
   }
 
 ];
