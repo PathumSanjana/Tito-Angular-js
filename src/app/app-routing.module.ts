@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContentComponent } from './content/content.component';
 import { JavaComponent } from './java/java.component';
 import { HtmlComponent } from './html/html.component';
+import { CssComponent } from './css/css.component';
 
 const routes: Routes = [
  
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path:'html',
     component:HtmlComponent
+  },
+  {
+    path:'css',
+    component:CssComponent
   }
 
 ];

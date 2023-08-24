@@ -9,6 +9,7 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { JavaComponent } from './java/java.component';
 import { HtmlComponent } from './html/html.component';
+import { CssComponent } from './css/css.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HtmlComponent } from './html/html.component';
     ContentComponent,
     FooterComponent,
     JavaComponent,
-    HtmlComponent
+    HtmlComponent,
+    CssComponent
   ],
   imports: [
     BrowserModule,
